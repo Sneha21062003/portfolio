@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> sneha srivastava portfolio</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/1f30786cce.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"  >sneha's portfolio</div>
+            
+            <div class="right">
+                <ul id="sidemenu">
+                      <li> <a href="#home"> Home</a>  </li> 
+                      <li> <a href="#about-1"> About Me</a>  </li> 
+                      <li> <a href="#services"> Services</a>  </li> 
+                      <li> <a href="#portfolio"> Projects</a>  </li> 
+                      <li> <a href="#contact">  Contact Me</a>  </li> 
+                      <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul> 
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="home"> 
+         <section class="firstsection">
+            <div class="leftsection">
+             Hi, My name is <span class="purple"> Sneha srivastava</span> 
+             <div> and I am a passionate<br>
+                <span id="element"></span>
+                <div class="button">
+                    <a href="sneha Srivastava resume 1.docx"> 
+                    <button class="btn" >Download Resume</button></a>
+                    <a href="#contact"> 
+                    <button class="btn">connect with me</button></a>
+                </div>
+             </div> 
+            </div>
+            <div class="rightsection">
+            
+                <img src="final.png" alt="icon">
+            </div>
+         </section>
+        </div>
+
+
+    <hr>     
+
+          
+        
+    </main>
+
+    <!------------about------------>
+<div id="about-1"> 
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="sneha-pic.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">
+                        About Me
+                    </h1>
+                    <p>A BCA student driven by a passion for technology and design.With a strong programming foundation in Python and c.
+                        I excels in Front End Development ,specializing in HTML ,CSS ,JavaScript.
+                        My creative flair and user-centric approach enable me to craft captivating user experiences. I am proficient in design tool like Figma 
+                        I transforms concepts into visually stunning interfaces.
+                        I commited to constant growth ,I embrace the latest industry trends to deliver innovative solutions.
+    
+                    </p>
+
+                    <div class="tab-items">
+                        <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+                        <p class="tab-links"  onclick="opentab('Experience')"> Experience</p>
+                        <p class="tab-links"  onclick="opentab('Education')"> Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li> <span>UI/UX designer 
+                            </span><br>"passionate UI/UX designer with a flair for crafting captivating experiences on figma,<br> turning visions into visually stunning realities." </li><br>
+                            <li> <span>Front end Web Developer </span><br>  " Talented front-end developer adept with transforming designs into dynamic ,interactive web experiences."</li><br>
+                            <li> <span> Python developer</span> <br> " Python enthusiast with a keen focus on ML "  </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li> <span>UI/UX Intern</span><br>  " UI/UX designer with hands-on 'NexusByte' internship experience, <br>crafting seamless and user -centric digital interfaces. " </li><br>
+                            <li> <span>web developer Intern</span><br>" Front-end web developer with practical expertise gained through an impactful internship at 'CodeCasa'</li><br>
+                            <li> <span>  AI/ML Intern
+                            </span><br> AI/ML enthusiast , hands-on learning experience with Acmegrade as AI Intern. </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li> <span>2019</span><br>Hign school</li>
+                            <li> <span> 2021</span><br>Intermediate</li>
+                            <li> <span> 2024</span><br> Under Graduation </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- --------------services------------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Web Design</h2>
+                    <p>  " Crafting captivating user experiences with HTML,CSS,JavaScript and Bootstrap magic to bring your digital dreams to life. " 
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-sharp fa-solid fa-object-ungroup"></i>
+                    <h2> UI/UX Designing</h2>
+                    <p> " Transforming visions into intuitive realities through design sprints,empathetic user personas and insightful design interviews - empowering exceptional user experiences that leave a lasting impact." </p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-sharp fa-solid fa-palette"></i>
+                    <h2> figma prototyping</h2>
+                    <p> " Ux/UI Designer specialized in user-centric designs,Figma Prototyping and wireframe development .Crafting visually appealing and intuitive experiences that meet user needs. Let's bring your vision to life!! </p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+    </div>
+
+    <!--portfolio-------------------------->
+
+    <div id="portfolio">
+        <div class="container"></div>
+        <h1 class="sub-title">Project</h1>
+         <div class="work-list">
+            <div class="work">
+                <img src="amazon back.png" alt="">
+                <div class="layer">
+                    <h3>
+                        "Amazon clone"
+                    </h3>
+                    <p>" As a enthusiastic beginner ,I am on a relentless journey to learn and grow .Recently I design a Amazon clone using HTML ,CSS ,honing my frontend skills and laying the foundation for more ambitious projects ahead. "</p>
+                    <a href="#"> <i class="fa-solid fa-up-right-from-square" style="color: #2a67cf;"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="saas back22.png" alt="">
+                <div class="layer">
+                    <h3>
+                        "SaaS dashboard" 
+                    </h3>
+                    <p> " Explored the realms of creativity and UX/UI design by crafting a captivating SaaS Dashboard using Figma -combining aesthetics UI interface."</p>
+                    <a href="#"> <i class="fa-solid fa-up-right-from-square" style="color: #2a67cf;"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="restau back.png" alt="">
+                <div class="layer">
+                    <h3>
+                        "Restaurant web app"
+                    </h3>
+                    <p> " Immersed in the world of user-centric design,I embarked on a delightfuljourney of creating a restaurant app that speaks to user's hearts,By gathering insights from diverse users,identifying their goals and frustrations,and sculpting precise user personas .I unleased the power of Figma to craft an intuitive web app interface. "</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square" style="color: #2a67cf;"></i></a>
+                </div>
+            </div>
+         </div>
+         <a href="#" class="btn-seemore">See more</a>
+        </div>
+    </div>
+
+    <!-- ------------contact---------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>contact snehasrivastava21.2003@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone-volume"></i>7505024451</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100075520242697"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com/_.sneha._.sri?igshid-NGExMmI2YTkyZg=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.LinkedIn.com/in/sneha-srivastava-583734250"> <i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.figma.com/@sneha7"><i class="fa-brands fa-figma"></i></a>
+                    </div>
+                    <a href="sneha Srivastava resume 1.docx"Download class="btn btn2">Download cv</a>
+                </div>
+                <div class="contact-right">
+                   <!--  <form >
+                        <input type=" text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Tour email" required>
+                        <textarea name="message"  rows="6" placeholder="Type your enquiry"></textarea>
+                        
+                    </form>
+                    -->
+
+                    <form name="submit-to-google-sheet">
+                        <div class="mb-3">
+                            <label for=" visitor-name" class="form-label"> name</label>
+                            <input type="name" class="form-control" id=" visitor-name" aria-describedby="emailHelp">
+                             
+                          </div>
+                        <div class="mb-3">
+                          <label for=" visitor-email" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id=" visitor-email" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for=" visitor-phone" class="form-label"> Phone Number</label>
+                          <input type=" phone" class="form-control" id=" visitor-phone">
+                        </div>
+                        <div class="mb-3" id="form-check">
+                          <input type="checkbox" class="form-check-input" id=" is-client">
+                          <label class="form-check-label" for=" is-client">Check me out if you are done with the above sections</label>
+                        </div>
+        
+                        <div class="mb-3">
+                            <label for=" visitor-email" class="form-label">   Enquiry</label>
+                            <input type="text" class="form-control" id=" visitor-email" aria-describedby="emailHelp">
+                            
+                          </div>
+        
+                        <button type="submit" class="btn-c">Submit</button>
+                      </form>
+                      <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @sneha,made with <i class="fa-solid fa-heart"></i>efforts</p>
+        </div>
+    </div>
+
+
+
+
+
+  <!--  <footer>
+        <div class="flex">
+            <div class="footer-first">
+                <h3>Sneha's Portfolio</h3>
+            </div>
+        </div>
+    </footer> -->
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+         
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+        }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+    </script>
+    <script>
+
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzAPCTSVvSoCNEy7bPhFJL4vmZetydnbZ3sVJS2Zt8/dev'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+  
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+       })
+    </script> 
+     
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', ' Ux/Ui Designer'],
+          typeSpeed: 50,
+        });
+      </script>
+
+ 
+  
+  
+</body>
+</html>
